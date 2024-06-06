@@ -1,10 +1,6 @@
 import "./styles.css";
 import { useEffect, useState } from "react";
 
-// 1️⃣ Finish getProfile() function to check if user exists
-// 2️⃣ Complete createProfile() function in ProfileCreation.js to create profile for a new user
-// 3️⃣ Set the correct profileContractAddress and contractAddress in Connect.js
-
 import Tweets from "./components/Tweets";
 import AddTweet from "./components/AddTweet";
 import Connect from "./components/Connect";
@@ -26,7 +22,6 @@ export default function App() {
     }
 
     const tempTweets = await contract.methods.getAllTweets(account).call();
-    // we do this so we can sort the tweets by timestamp
     const tweets = [...tempTweets];
     tweets.sort((a, b) => b.timestamp - a.timestamp);
     setTweets(tweets);
@@ -48,9 +43,6 @@ export default function App() {
     }
 
     const profile = await profileContract.methods.getProfile(account).call();
-    // get profile using getProfile() function from the contract
-    // return profile displayName
-    // HINT: https://web3js.readthedocs.io/en/v1.2.11/web3-eth-contract.html#methods-mymethod-call
     setLoading(false);
     return profile.displayName;
   }
