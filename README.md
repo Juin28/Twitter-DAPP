@@ -9,6 +9,7 @@ The Twitter-DAPP (Decentralized Application) is a web3 social media platform bui
 - **Tokenized Incentive System**: The DAPP utilizes a native cryptocurrency token to incentivize user engagement, content creation, and platform governance.
 - **Decentralized Moderation**: The platform employs a decentralized moderation system, where the community collectively decides on content and user moderation, rather than a centralized authority.
 - **Interoperability**: The DAPP is designed to be interoperable with other web3 applications and platforms, enabling seamless integration and cross-platform functionality.
+- **Ease of use**: The DAPP integrates with the MetaMask API to allow users to easily connect their wallets.
 
 ## Key Functions
 ### Create User Profile
