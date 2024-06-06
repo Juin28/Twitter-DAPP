@@ -51,6 +51,9 @@ We welcome contributions to the Twitter-DAPP project! If you'd like to get invol
 3. **Implement Your Changes**: Implement your changes and ensure that the DAPP's functionality is not compromised.
 4. **Test Your Changes**: Thoroughly test your changes to ensure they work as expected.
 5. **Submit a Pull Request**: Create a pull request from your forked repository to the main Twitter-DAPP repository.
+ 
+## Credits
+This project is instructed by Naz Dumanskyy.
    
 ## License
 The Twitter-DAPP project is licensed under the MIT License.
